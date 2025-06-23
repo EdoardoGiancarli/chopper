@@ -82,3 +82,5 @@ In the directories **grs**, **ganymede**, and **raman** there are some examples 
 # Notes
 
 v1 : uploaded in June 2025. Basic code as described in Biagiotti et al. 2025 (submitted to A&A)
+
+I acknowledge Edoardo Giancarli for his kind help in developing this code ^.^
