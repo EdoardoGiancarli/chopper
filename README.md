@@ -1,6 +1,7 @@
 # chopper.py
 ![Chopper Logo](images/chopper_logo.png)
-Hi fellow rebels :) Welcome to the chopper.py repository
+
+Hi fellow rebels :) Welcome to the `chopper.py` repository
 
 ## What is chopper.py
 `chopper.py` is a code developed during my PhD in order to automatically find similar groups of spectra in a generic collection. I'm an astronomer therefore I used it mainly to study the Jupiter spectra acquired by the NASA Juno mission and by JWST during its Eearly Release Science phase. If you're interested you can find the details in a forthcoming paper currently under review in Astronomy and Astrophysics.
