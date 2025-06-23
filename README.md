@@ -77,7 +77,7 @@ In the directories **grs**, **ganymede**, and **raman** there are some examples 
 
 1. **grs**: Contains Juno/JIRAM spectra of the Great Red Spot Region on Jupiter. The notebook replicates Fig. 9 and A7 from Biagiotti et al. 2025 (submitted to A&A). In particular it explains how to use both `flag_PCA` and `flag_GMM`
 2. **ganymede**: Contains Juno/JIRAM spectra of Ganymede. The notebook shows how chopper.py is able to automatically replicate the results of https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2020JE006508. It also explains how it can be useful to use `flag_solar_correction`
-3. **raman**: it requires `ramanspy` (https://ramanspy.readthedocs.io/en/latest/) to be installed. The notebook shows how `chopper.py` is able to automatically clusterize non-astrophysical spectra of bacteria. Is it also useful to show how `flag_N_clusters` can be used.
+3. **raman**: it requires `ramanspy` (https://ramanspy.readthedocs.io/en/latest/) to be installed. The notebook shows how `chopper.py` is able to automatically clusterize non-astrophysical spectra of bacteria. Is it also useful to show how `flag_N_clusters` can be used. **N.B.** the `bacteria_data` folder is empty ! You have to download and copy inside `bacteria_data` the **Bacteria Data** dataset from https://ramanspy.readthedocs.io/en/latest/datasets.html in order to run the notebook !
 
 # Notes
 
