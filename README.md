@@ -42,7 +42,7 @@ This is the first `bool` flag to be checked. It is particularly useful if your s
 2. `incidence_angle` (`ndarray`): a `N`-dimensional array containing incidence angles in (°)
 3. `wavelengths` (`ndarray`); a `M`-dimensional array containing the wavelength values expressed in micron
 
-N.B. `chopper.py` was designed to be a general tool to take a first look at large spectral collections. Therefore it approximates the solar irradiance as a black body. This is a good approximation in most of the cases.
+**N.B.** `chopper.py` was designed to be a general tool to take a first look at large spectral collections. Therefore it approximates the solar irradiance as a black body. This is a good approximation in most of the cases.
 
 ### `flag_PCA`
 ```
