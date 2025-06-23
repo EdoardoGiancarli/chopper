@@ -3,7 +3,7 @@
 Hi fellow rebels :) Welcome to the chopper.py repository
 
 ## What is chopper.py
-'chopper.py' is a code developed during my PhD in order to automatically find similar groups of spectra in a generic collection. I'm an astronomer therefore I used it mainly to study the Jupiter spectra acquired by the NASA Juno mission and by JWST during its Eearly Release Science phase. If you're interested you can find the details in a forthcoming paper currently under review in Astronomy and Astrophysics.
+`chopper.py` is a code developed during my PhD in order to automatically find similar groups of spectra in a generic collection. I'm an astronomer therefore I used it mainly to study the Jupiter spectra acquired by the NASA Juno mission and by JWST during its Eearly Release Science phase. If you're interested you can find the details in a forthcoming paper currently under review in Astronomy and Astrophysics.
 
 However, I'm not an imperial, therefore you can use for any spectral collection ! More in general also for any collection of N elements each of them described by M features.
 
@@ -19,7 +19,7 @@ pip install requirements.txt
 ```
 
 ## How to use
-I suggest you to write a run.py or run.ipynb file awhere you read or import your spectral collection 'spectra'. If so then you need to just implement these lines:
+I suggest you to write a run.py or run.ipynb file awhere you read or import your spectral collection `spectra`. If so then you need to just implement these lines:
 ```
 import chopper as chopper
 
@@ -28,15 +28,15 @@ labels, clusters, coefficients, mean_spectra, mean_spectra_std= chopper.do_Clust
 ```
 Let's wrap up the inputs and outputs of this function. 
 
-### 'input_sectra'
-This is your spectral collection. It should be a 'np.ndarray' with shape '(N,M)'
+### `input_sectra`
+This is your spectral collection. It should be a `np.ndarray` with shape `(N,M)`
 
-### 'flag_solar'
+### `flag_solar`
 ```
 labels, clusters, coefficients, mean_spectra= chopper.do_Clustering(input_spectra=spectra, flag_solar_correction=False, flag_PCA=False,
                                                       flag_GMM=False, flag_N_clusters=False, au=5.2, incidence_angle=inc, wavelengths=wv)
 ```
-This is the first 'bool' flag to be checked. It is particularly useful if your spectral collection regards solar system objects. If 'flag_solar=False' the code does not modify your spectra. If 'flag_solar=True' it modifies your spectra in BRDF values assuming a Lambertian model (https://en.wikipedia.org/wiki/Lambert%27s_cosine_law). To do that you also need to specify three further input parameters:
+This is the first `bool` flag to be checked. It is particularly useful if your spectral collection regards solar system objects. If `flag_solar=False` the code does not modify your spectra. If `flag_solar=True` it modifies your spectra in BRDF values assuming a Lambertian model (https://en.wikipedia.org/wiki/Lambert%27s_cosine_law). To do that you also need to specify three further input parameters:
 1. au (float): the distance of the object from the sun in A.U.
 2. incidence_angle (ndarray): a N-dimensional array containing incidence angles in (°)
 3. wavelengths (ndarray); a M-dimensional array containing the wavelength values expressed in micron
