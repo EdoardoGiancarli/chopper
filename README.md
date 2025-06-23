@@ -16,7 +16,7 @@ The code is very simple and here there is a diagram showing what it does:
 ```
 git clone https://github.com/astro-francy/chopper.git
 cd chopper
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 ## How to use
