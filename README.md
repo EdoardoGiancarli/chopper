@@ -1,5 +1,5 @@
 # chopper.py
-![Chopper Logo](chopper_logo.png)
+![Chopper Logo](images/chopper_logo.png)
 Hi fellow rebels :) Welcome to the chopper.py repository
 
 ## What is chopper.py
@@ -8,7 +8,7 @@ chopper.py is a code developed during my PhD in order to automatically find simi
 However, I'm not an imperial, therefore you can use for any spectral collection ! More in general also for any collection of N elements each of them described by M features.
 
 The code is very simple and here there is a diagram showing what it does:
-
+![Chopper flowchart](images/chopper_flowchart.png)
 
 ## How to install
 
