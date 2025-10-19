@@ -1,0 +1,23 @@
+# - Setup file for Anaconda environments in support of the chopper package
+# ! This file is temporary, during development will be substituted by a `project.toml` script
+
+name: chopper
+
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+
+# - these dependencies and their version may change during development
+dependencies:
+  - python=3.12
+  - numpy=2.0.1
+  - matplotlib=3.10.0
+  - tqdm=4.67.1
+  - scipy=1.15.3
+  - scikit-learn=1.6.1
+  - corner=2.2.3
+  - kneed=0.8.5
+
+
+# end
